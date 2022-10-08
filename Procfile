@@ -1,1 +1,1 @@
-Vick: python3 main.py
+Vick: python3 chatbot_music.py
