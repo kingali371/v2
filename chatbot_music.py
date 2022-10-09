@@ -431,9 +431,9 @@ async def cb_handler(Client, query: CallbackQuery):
                     text = OWNER_READ,
                     reply_markup = InlineKeyboardMarkup(MUSIC_BACK_BTN), 
      )
-    elif query.data == "OWNER":
+    elif query.data == "PLAY":
             await query.message.edit(
-                    text = OWNER_READ,
+                    text = PLAY_READ,
                     reply_markup = InlineKeyboardMarkup(MUSIC_BACK_BTN), 
      )
     elif query.data == "SUDO":
