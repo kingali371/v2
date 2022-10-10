@@ -1,10 +1,8 @@
 <h4>About!</h4>
 <pre><b>An Advanced Telegram Chatbot.</b></pre>
 
-<details>
-<summary><h3>Note 📝</h3></summary> 
-<i>ᴛʜɪs ɪs ᴏɴʟʏ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ! ɪɴᴄʟᴜᴅᴇs ᴄᴍᴅs ғᴏʀ ᴍᴜsɪᴄ ɴᴏᴛ ᴍᴜsɪᴄ ʙᴏᴛ!! ᴅᴇᴘʟᴏʏ ᴍᴜsɪᴄ ʙᴏᴛ ғʀᴏᴍ [ᴠɪᴄᴋᴍᴜsɪᴄ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickMusic)</i>
-</details>
+<h3>Note 📝</h3>
+ᴛʜɪs ɪs ᴏɴʟʏ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ! ɪɴᴄʟᴜᴅᴇs ᴄᴍᴅs ғᴏʀ ᴍᴜsɪᴄ ɴᴏᴛ ᴍᴜsɪᴄ ʙᴏᴛ!! ᴅᴇᴘʟᴏʏ ᴍᴜsɪᴄ ʙᴏᴛ ғʀᴏᴍ [ᴠɪᴄᴋᴍᴜsɪᴄ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickMusic)
 
 
 
