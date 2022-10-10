@@ -21,7 +21,7 @@
 <details>
 <summary>ᴅᴇᴍᴏ ʙᴏᴛ ✨</summary>
 <i>ᴀʟʟ ᴛʜᴇ ᴄᴜsᴛᴏᴍɪsᴀᴛɪᴏɴs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ. ᴊᴜsᴛ ᴄʜᴇᴄᴋᴏᴜᴛ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴠᴀʀɪᴀʙʟᴇs.</i>
-<p align="center"><a href="https://t.me/mickeymouse_robot"> <img src="https://img.shields.io/badge/Sample%20Bot-pink?style=for-the-badge" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://t.me/mickeymouse_robot"> <img src="https://img.shields.io/badge/Demo%20Bot-green?style=for-the-badge" width="220" height="38.45"/></a></p>
 </details>
 
 
