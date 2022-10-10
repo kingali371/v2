@@ -3,7 +3,7 @@
 
 <details>
 <summary><h3>Note 📝</h3></summary> 
-<pre><i>VickMachineBot Is Not My Bot</i></pre>
+<i>ᴛʜɪs ɪs ᴏɴʟʏ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ! ɪɴᴄʟᴜᴅᴇs ᴄᴍᴅs ғᴏʀ ᴍᴜsɪᴄ ɴᴏᴛ ᴍᴜsɪᴄ ʙᴏᴛ!! ᴅᴇᴘʟᴏʏ ᴍᴜsɪᴄ ʙᴏᴛ ғʀᴏᴍ [ᴠɪᴄᴋᴍᴜsɪᴄ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickMusic)</i>
 </details>
 
 
