@@ -373,7 +373,7 @@ async def restart(client, m: Message):
         await m.reply_photo(
                       photo = random.choice(PHOTO),
                       caption = START,
-                      reply_markup = InlineKeyboardMarkup(START_BUTN),
+                      reply_markup = InlineKeyboardMarkup(HELP_BTN),
    )
 
 @bot.on_callback_query()
