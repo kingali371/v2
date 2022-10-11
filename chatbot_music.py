@@ -234,7 +234,7 @@ MUSIC_BTN = [
 
 HELP_PVT = [
      [
-          InlineKeyboardButton(text="ʜᴇʟᴘ!", url=f"https://t.me/{BOT_USERNAME}?start=HELP"),
+          InlineKeyboardButton(text="ʜᴇʟᴘ!", url=f"https://t.me/{BOT_USERNAME}?start=help"),
      ],
 ]
 
@@ -374,7 +374,6 @@ async def restart(client, m: Message):
                       photo = random.choice(PHOTO),
                       caption = START,
                       reply_markup = InlineKeyboardMarkup(START_BUTN),
-                      disable_web_page_preview = True,
    )
 
 @bot.on_callback_query()
