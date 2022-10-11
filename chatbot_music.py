@@ -503,10 +503,10 @@ async def restart(client, m: Message):
                       text = HELP_READ,
                       reply_markup= InlineKeyboardMarkup(HELP_BTN),
         )
-       else:
-           await m.reply_text(
-                         text = "Contact Me In Pm For Help!",
-                         reply_markup = InlineKeyboardMarkup(HELP_PVT),
+    else:
+        await m.reply_text(
+                      text = "Contact Me In Pm For Help!",
+                      reply_markup = InlineKeyboardMarkup(HELP_PVT),
        )
    
 @bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
