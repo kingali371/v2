@@ -228,7 +228,7 @@ MUSIC_BTN = [
 
 HELP_PVT = [
      [
-          InlineKeyboardButton(text="ʜᴇʟᴘ!", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+          InlineKeyboardButton(text="ʜᴇʟᴘ!", url=f"https://t.me/{BOT_USERNAME}?start=HELP"),
      ],
 ]
 
