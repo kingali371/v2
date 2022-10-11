@@ -226,6 +226,12 @@ MUSIC_BTN = [
       ],
 ]
 
+HELP_PVT = [
+     [
+          InlineKeyboardButton(text="ʜᴇʟᴘ!", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+     ],
+]
+
 MUSIC_BACK_BTN = [
            [
                InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="MUSIC_BACK"),
@@ -491,12 +497,18 @@ async def repo(client, message):
                    disable_web_page_preview = True,
       )
 @bot.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["+", ".", "/", "-", "?", "$"]))
-async def restart(client, message):
-    hmm = await message.reply_text(
-                        text = HELP_READ,
-                        reply_markup= InlineKeyboardMarkup(HELP_BTN),
+async def restart(client, m: Message):
+    if m.chat.type == "private":
+        bkl = await m.reply_text(
+                      text = HELP_READ,
+                      reply_markup= InlineKeyboardMarkup(HELP_BTN),
+        )
+       else:
+           await m.reply_text(
+                         text = "Contact Me In Pm For Help!",
+                         reply_markup = InlineKeyboardMarkup(HELP_PVT),
        )
-
+   
 @bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
 async def ping(client, message: Message):
         start = datetime.now()
