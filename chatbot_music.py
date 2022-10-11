@@ -202,6 +202,12 @@ ABOUT_BTN = [
            InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
       ],
 ]
+
+START_BUTN = [
+      [
+            InlineKeyboardButton(text="sᴛᴀʀᴛ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?start=start")
+      ],
+]
 MUSIC_READ = f"""
 **<u>➻ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}</u>**
 **๏ ᴀ ғᴀsᴛ ᴀɴᴅ ᴩᴏᴡᴇʀғᴜʟ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇᴄʜᴀᴛs.**
@@ -364,9 +370,11 @@ async def restart(client, m: Message):
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
     else:
-        await m.reply_text(
-                      text = START,
-                      reply_markup = InlineKeyboardMarkup(DEV_OP),
+        await m.reply_photo(
+                      photo = random.choice(PHOTO),
+                      caption = START,
+                      reply_markup = InlineKeyboardMarkup(START_BUTN),
+                      disable_web_page_preview = True,
    )
 
 @bot.on_callback_query()
