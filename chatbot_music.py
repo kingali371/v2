@@ -238,6 +238,11 @@ HELP_PVT = [
      ],
 ]
 
+HELP_START = [
+     [
+            InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="HELP"),
+     ],
+]
 MUSIC_BACK_BTN = [
            [
                InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="MUSIC_BACK"),
@@ -367,13 +372,13 @@ async def restart(client, m: Message):
         await m.reply_photo(
             photo = random.choice(PHOTO),
             caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
-            reply_markup=InlineKeyboardMarkup([InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀",callback_data="HELP"),]),
+            reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
     else:
         await m.reply_photo(
                       photo = random.choice(PHOTO),
                       caption = START,
-                      reply_markup = InlineKeyboardMarkup(HELP_BTN),
+                      reply_markup = InlineKeyboardMarkup(HELP_START),
    )
 
 @bot.on_callback_query()
