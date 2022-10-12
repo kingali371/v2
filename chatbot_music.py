@@ -367,7 +367,7 @@ async def restart(client, m: Message):
         await m.reply_photo(
             photo = random.choice(PHOTO),
             caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀ ᴄʜᴀᴛʙᴏᴛ ɴᴅ ᴍᴜsɪᴄʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
-            reply_markup=InlineKeyboardMarkup(DEV_OP),
+            reply_markup=InlineKeyboardMarkup([InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀",callback_data="HELP"),]),
         )
     else:
         await m.reply_photo(
