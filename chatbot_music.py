@@ -516,8 +516,9 @@ async def restart(client, m: Message):
                       reply_markup= InlineKeyboardMarkup(HELP_BTN),
         )
     else:
-        await m.reply_text(
-                      text = "Contact Me In Pm For Help!",
+        await m.reply_photo(
+                      photo= random.choice(PHOTO), 
+                      caption = "**ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғᴏʀ ʜᴇʟᴘ!**",
                       reply_markup = InlineKeyboardMarkup(HELP_PVT),
        )
    
