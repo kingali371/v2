@@ -2,7 +2,7 @@
 <h3 align="centre">─「ᴠɪᴄᴋ ✘ ᴄʜᴀᴛʙᴏᴛ」─</h3>
 <pre><b>ᴀɴ ᴀᴅᴠᴀɴᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀᴛʙᴏᴛ!.</b>
 ━━━━━━━━━━━━━━━━
-<h3>Note 📝</h3>
+<h2>Note 📝</h2>
 
 ᴛʜɪs ɪs ᴏɴʟʏ ᴄʜᴀᴛʙᴏᴛ ʀᴇᴘᴏ! ɪɴᴄʟᴜᴅᴇs ᴄᴍᴅs ғᴏʀ ᴍᴜsɪᴄ ᴍᴜsɪᴄ ʙᴏᴛ!! ᴅᴇᴘʟᴏʏ ᴍᴜsɪᴄ ʙᴏᴛ ғʀᴏᴍ [ᴠɪᴄᴋᴍᴜsɪᴄ ʀᴇᴘᴏ](https://github.com/Devarora-0981/VickMusic) ᴡɪᴛʜ sᴀᴍᴇ ʙᴏᴛ ᴛᴏᴋᴇɴ!
 ━━━━━━━━━━━━━━━━
@@ -17,7 +17,7 @@
 
 
 <details>
-<summary>ᴅᴇᴍᴏ ʙᴏᴛ ✨</summary>
+<summary><h2>ᴅᴇᴍᴏ ʙᴏᴛ ✨</h2></summary>
 <i>ᴀʟʟ ᴛʜᴇ ᴄᴜsᴛᴏᴍɪsᴀᴛɪᴏɴs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ. ᴊᴜsᴛ ᴄʜᴇᴄᴋᴏᴜᴛ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴠᴀʀɪᴀʙʟᴇs.</i>
 <p align="center"><a href="https://t.me/spodormon_bot"> <img src="https://img.shields.io/badge/Demo%20Bot-black?style=for-the-badge&logo=Telegram" width="200" height="38.5"/></a></p>
 </details>
