@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h4>ᴀʙᴏᴜᴛ</h4>
 <h3 align="centre">─「ᴠɪᴄᴋ ✘ ᴄʜᴀᴛʙᴏᴛ」─</h3>
+<h4>Aʙᴏᴜᴛ!</h4>
 <pre><b>ᴀᴅᴠᴀɴᴄᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀᴛʙᴏᴛ!.</b>
 
 ━━━━━━━━━━━━━━━━
