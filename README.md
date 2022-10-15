@@ -2,7 +2,7 @@
 Telegram Ai Chatbot Open Source.
 
 # Note
-This Repo Is Only For Chatbot And Music Commands, Use [VickMusic Repo](https://github.com/Devarora-0981/VickMusic)
+This Repo Is Only For Chatbot And Music Commands, Use [SpideyMusic Repo](https://github.com/Devarora-0981/SpideyMusic) To Play Music.
 
 # Deployment 
 ### Deploy To Heroku 🚀
