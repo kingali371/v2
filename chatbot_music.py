@@ -539,13 +539,13 @@ async def ping(client, message: Message):
     wtfbhemchomd = await message.reply_sticker(
         sticker = random.choice(PNG_STKR),
         )
-        end = datetime.now()
-        ms = (end-start).microseconds / 1000
-        await message.reply_photo(
-                             photo=random.choice(PHOTO),
-                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Ꭰev🎋](https://t.me/Dev_Arora_0981)||</b>",
-                             reply_markup=InlineKeyboardMarkup(PNG_BTN),
-       )
+    end = datetime.now()
+    ms = (end-start).microseconds / 1000
+    await message.reply_photo(
+        photo=random.choice(PHOTO),
+        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Ꭰev🎋](https://t.me/Dev_Arora_0981)||</b>",
+        reply_markup=InlineKeyboardMarkup(PNG_BTN),
+    )
 
 
 @bot.on_message(
