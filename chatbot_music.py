@@ -185,6 +185,7 @@ CHATBOT_READ = f"""
 CHATBOT_BACK = [
         [     
               InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
+              InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSEALL"),
         ],
 ]
 
@@ -229,7 +230,7 @@ MUSIC_BTN = [
       ],
       [
            InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="BACK_HELP"),
-           InlineKeyboardButton(text="Close", callback_data="CLOSEALL"),
+           InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="CLOSEALL"),
       ],
 ]
 
@@ -249,6 +250,7 @@ MUSIC_BACK_BTN = [
                InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="MUSIC_BACK"),
            ],
 ]
+  
 TOOLS_READ = """
 <u>**sᴏᴍᴇ ᴜsᴇғᴜʟ ᴛᴏᴏʟs :**</u>
 ➻ /ping
