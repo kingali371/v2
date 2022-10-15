@@ -229,6 +229,7 @@ MUSIC_BTN = [
       ],
       [
            InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="BACK_HELP"),
+           InlineKeyboardButton(text="Close", callback_data="CLOSEALL"),
       ],
 ]
 
@@ -414,6 +415,8 @@ async def cb_handler(Client, query: CallbackQuery):
                     text = MUSIC_READ,
                     reply_markup = InlineKeyboardMarkup(MUSIC_BTN),
      )
+    elif query.data == "CLOSEALL":
+           await query.message.delete()
     elif query.data == "HELP_BACK":
             await query.message.edit(
                     text = MUSIC_READ,
