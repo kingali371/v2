@@ -131,8 +131,7 @@ PNG_BTN = [
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
-                              url=f"https://t.me/{SUPPORT_GRP}",
+         InlineKeyboardButton(text="✨ ᴄʟᴏsᴇ✨", callback_data="CLOSEALL",
          ),
      ],
 ]
@@ -539,14 +538,6 @@ async def ping(client, message: Message):
         wtfbhemchomd = await message.reply_sticker(
                                       sticker = random.choice(PNG_STKR),
         )
-        t = "__ριиgιиg...__"
-        txxt = await message.reply(t)
-        await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg.....__")
-        await asyncio.sleep(0.25)
-        await txxt.edit_text("__ριиgιиg...__")
-        await asyncio.sleep(0.35)
-        await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
