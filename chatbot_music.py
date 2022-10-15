@@ -243,6 +243,7 @@ HELP_PVT = [
 HELP_START = [
      [
             InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="HELP"),
+            InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="CLOSEALL"),
      ],
 ]
 MUSIC_BACK_BTN = [
@@ -341,7 +342,12 @@ SUDO_READ = """
 ➻ .pfp
 ๏ sᴇᴛ ᴘғᴘ ᴏғ ᴀssɪsᴛᴀɴᴛ. [ʀᴇᴘʟʏ ᴀ ᴘʜᴏᴛᴏ!]
 """
-
+PNG_STKR = [
+            "CAACAgQAAx0CVbWIYQACCn5jSs_9_zh3TuUVUPge8X1L_6zwJgACVwkAAs4OWVM-aeuZeNqefCoE",
+            "CAACAgQAAx0CVbWIYQACCoJjStAFy05rsk_eH2R0KSjJrdjoHwACLgkAAtV18VMyeXG0H2zCbCoE",
+            "CAACAgQAAx0CVbWIYQACCpRjStBqcb1RXqpAasxjSgn9FohXDQACgQkAAsdMWVP7QgifAAE6v-QqBA",
+            "CAACAgQAAx0CVbWIYQACCpljStCDLeBN5K02NP-ZoJIYNgz70AAC3goAAtpz6VPNcJcCFW5ExioE",
+]
 
 SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/Devarora-0981/Vick)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n ||©️ @Dev_Arora_0981||**"
 
@@ -530,6 +536,8 @@ async def restart(client, m: Message):
 @bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
 async def ping(client, message: Message):
         start = datetime.now()
+        wtfbhemchomd = await message.reply_sticker(
+                                      sticker = random.choice(PNG_STKR),
         t = "__ριиgιиg...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
