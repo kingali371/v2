@@ -538,6 +538,7 @@ async def ping(client, message: Message):
         start = datetime.now()
         wtfbhemchomd = await message.reply_sticker(
                                       sticker = random.choice(PNG_STKR),
+        )
         t = "__ριиgιиg...__"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
