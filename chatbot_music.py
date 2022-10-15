@@ -534,6 +534,7 @@ async def restart(client, m: Message):
    
 @bot.on_message(filters.command("ping", prefixes=["+", "/", "-", "?", "$", "&"]))
 async def ping(client, message: Message):
+    await message.delete()
         start = datetime.now()
         wtfbhemchomd = await message.reply_sticker(
                                       sticker = random.choice(PNG_STKR),
