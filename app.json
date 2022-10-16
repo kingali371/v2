@@ -1,5 +1,6 @@
 {
-    "name": "Dev-Vick",    
+    "name": "Spidey 🕸️",    
+    "logo": "https://te.legra.ph/file/83cfa014c4b9f47cc8a90.png",
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
